@@ -1,0 +1,38 @@
+body{
+  background: linear-gradient(to bottom, rgb(209, 166, 216), rgb(103, 58, 183));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poltawski Nowy', serif;
+}
+img{
+  height: 200px;
+  width: 400px;
+}
+
+span{
+  margin-right: 8px;
+}
+
+.info{
+  background-color: rgba(245, 213, 240, 0.972); /* Change the opacity value as desired */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Add some padding */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a subtle box shadow */
+  margin-top: 20px; /* Add some margin to separate it from the form */
+}
+
+ul.info{
+  list-style: none;
+}
+
+input, button{
+  border-radius: 4px;
+}
+
+button{
+  background-color: rgba(245, 213, 240, 0.972);
+  color: rgb(59, 14, 101);
+  font-size: 17px;
+}
